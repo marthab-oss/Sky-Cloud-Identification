@@ -8,7 +8,7 @@
 - **Dataset Link:** https://data.mendeley.com/datasets/4pw8vfsnpx
 - **Dataset Owner/Contact:** Universidade Federal de Santa Catarina
 
-- **second option:** https://zenodo.org/records/16647156?preview_file=test_set.zip
+- **second option:** https://zenodo.org/records/16647156?preview_file=test_set.zip (test and train set, 4 classes for altitude)
 - **Dataset Owner/Contact:** DLR Institute of Solar Research
 
 ### Dataset Characteristics
