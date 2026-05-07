@@ -5,18 +5,18 @@
 ## Dataset Information
 
 ### Dataset Source
-- **Dataset Link:** [Provide a direct link to your dataset. If the dataset is private, explain the reason and provide contact information for the dataset owner]
-- **Dataset Owner/Contact:** [If applicable, provide contact information for private datasets]
+- **Dataset Link:** [https://data.mendeley.com/datasets/4pw8vfsnpx]
+- **Dataset Owner/Contact:** [Universidade Federal de Santa Catarina]
 
 ### Dataset Characteristics
-- **Number of Observations:** [Total number of samples/records in your dataset. For time series data, also specify the temporal resolution (e.g., daily, hourly, etc.)]
-- **Number of Features:** [Total number of features in your dataset]
+- **Number of Observations:** [extension of original clouds-1000 dataset, taken between March 2021 and Janary 2023]
+- **Number of Features:** [1500 images]
 
 ### Target Variable/Label
-- **Label Name:** [Name of the target variable/column]
-- **Label Type:** [Classification/Regression/Clustering/Other]
-- **Label Description:** [What does this label represent? What is the prediction task?]
-- **Label Values:** [For classification: list of classes and their meanings. For regression: range of values. For other tasks: describe the label structure]
+- **Label Name:** [Cirriforms, Cumuliforms, Stratiforms, and Stratocumuliforms]
+- **Label Type:** [Classification]
+- **Label Description:** [identify clouds in images, predict weather trends]
+- **Label Values:** [type of clouds, if low or high, if water saturated or not,..]
 - **Label Distribution:** [Brief description of class balance for classification or value distribution for regression]
 
 ### Feature Description
