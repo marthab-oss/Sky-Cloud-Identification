@@ -4,34 +4,52 @@ Approaches or solutions that have been tried before on similar projects.
 
 **Summary of Each Work**:
 
-- **Source 1**: [PV power output prediction from sky images using convolutional neural network: The comparison of sky-condition-specific sub-models and an end-to-end model]
+- **Source 1**: [Deep Learning-Based All-Sky Cloud Image Recognition]
 
-  - **[Link](https://pubs.aip.org/aip/jrse/article-abstract/12/4/046101/284973/PV-power-output-prediction-from-sky-images-using?redirectedFrom=fulltext)**
-  - **Objective**:
-  - **Methods**:
-  - **Outcomes**:
-  - **Relation to the Project**:
+  - **[Link](https://www.mdpi.com/2073-4433/17/2/142)**
+  - **Objective**: cloud image recognition with deep learning
+  - **Methods**: 256 cloud image observation data points collected by an all-sky imager from 3 to 30 November 2023, at the Tunchang County Meteorological Bureau in Hainan Province (19°21′N, 110°06′ E), CNN
+  - **Outcomes**: 100% accuracy, 95% average accuracy in distinguishing between clear skies, stratus clouds, cumulus clouds, cirrus clouds
+  - **Relation to the Project**: identification of different cloud types 
 
-- **Source 2**: [Cloud Identification from All-sky Camera Data with Machine Learning]
+- **Source 2**: [Artificial neural networks in automatic image classifications of cloud from ground-based observations using deep learning models]
+
+  - **[Link](https://rmets.onlinelibrary.wiley.com/doi/10.1002/qj.4865)**
+  - **Objective**:recognition of  cloud ground-photographs with deep learning
+  - **Methods**: 200,000 cloud photographs from professional observers at meteorological stations of the Institute of Meteorology and Water Management–National Research Institute, CNN
+  - **Outcomes**: 97.4% accuracy for classifying four common cloud genera: cirrus, cumulus, stratus, and clear sky & classification of 11 types
+  - **Relation to the Project**: identification of different cloud types
+
+- **Source 3**: [Convolutional Neural Network for High-Resolution Cloud
+Motion Prediction from Hemispheric Sky Images]
+
+  - **[Link](file:///Users/libraryfree/Downloads/Convolutional_Neural_Network_for_High-Resolution.pdf)**
+  - **Objective**:predict cloud motion up to 10min ahead
+  - **Methods**: trained with 150,000 cloud pictures of hemispheric sky imager (HSI) at Institute of
+Meteorology and Climatology (IMUK) of the Leibniz Universität Hannover, CNN
+  - **Outcomes**: 94% accuracy for first minute prediction, to 37.8% accuracy for 10min prediciton
+  - **Relation to the Project**: train CNN to predict motion/direction of clouds, for weather front prediction
+
+- **Source 4**: [Cloud Identification from All-sky Camera Data with Machine Learning]
 
   - **[Link](https://arxiv.org/abs/2003.11109)**
-  - **Objective**:
-  - **Methods**:
-  - **Outcomes**:
-  - **Relation to the Project**:
+  - **Objective**:identify opaque clouds (that bring bad weather) for protection of telescope equipement
+  - **Methods**: first approach: ResNet (Residual NN) and 2nd: gradient-boosted tree-based model (lightGBM) trained with 2000 (1) and 1000 (1) images from Lowell Observatory's Discovery Channel Telescope
+  - **Outcomes**: 85% accuracy in detecting clouds (ResNet) and 95% for 2nd approach
+  - **Relation to the Project**:differenciating the color/shade of clouds
 
-- **Source 3**: [Deep learning-based identification of precipitation clouds from all-sky camera data for observatory safety]
+- **Source 5**: [Deep learning-based identification of precipitation clouds from all-sky camera data for observatory safety]
 
   - **[Link](https://www.sciencedirect.com/science/article/pii/S2666827025000234)**
-  - **Objective**:
-  - **Methods**:
-  - **Outcomes**:
-  - **Relation to the Project**:
+  - **Objective**: automating the identification of precipitation clouds in all-sky camera data as a cloud warning system
+  - **Methods**: using 2445 all-sky camera image archive of the Iranian National Observatory (INO) and trained with EfficientNet network (from Torchvision package), as well as with the models: LeNet, DeiT, and AlexNet
+  - **Outcomes**: 99% accuracy in detecting rain fall potential, 96% accuracy for cloud coverage
+  - **Relation to the Project**: create relationship in NN between cloud shading and rainfall potential
     
-- **Source 4**: [GitHub Repo: Cloud detection in sky images]
+- **Source 6**: [GitHub Repo: Cloud detection in sky images]
 
   - **[Link](Cloud-dection-in-sky-images)**
-  - **Objective**:
-  - **Methods**:
-  - **Outcomes**:
-  - **Relation to the Project**:
+  - **Objective**: identify cloud pixels in sky images for classification for solar forecasting
+  - **Methods**: algorithm from  Nie et al. (2020) study, with integration of NRBR (normalized red blue ratio) and CSL (clear sky library)
+  - **Outcomes**: identification of several possible improvements: algorithm not self-adaptive when different camera is used, deep learning would be better option
+  - **Relation to the Project**: distinguish betwen clear sky and clouds
