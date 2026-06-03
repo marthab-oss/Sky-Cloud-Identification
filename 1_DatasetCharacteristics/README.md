@@ -20,7 +20,7 @@
 - **Label Type:** Classification
 - **Label Description:** identify clouds in images, predict weather trends
 - **Label Values:** type of clouds, if low or high, if water saturated or not,..
-- **Label Distribution:** [Brief description of class balance for classification or value distribution for regression]
+- **Label Distribution:**
 
 ### Feature Description
 [Provide a brief description of each feature or group of features in your dataset. If you have many features, group them logically and describe each group. Include information about data types, ranges, and what each feature represents.]
